@@ -1,0 +1,18 @@
+:root{
+    margin: 0px;
+    padding: 0px;
+    --bg-color: #0a0a0a;
+    --font-color: #dadada;
+    --fractal-color: #902eff;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--font-color);
+}
+
+.cnvContainer {
+    align-items: center;
+}
+.primarycnv{
+    border: solid 5px var(--fractal-color);
+}
