@@ -1,4 +1,6 @@
 :root{
+    font-size: 16px;
+    font-family: 'Press Start 2P', cursive;
     margin: 0px;
     padding: 0px;
     --bg-color: #0a0a0a;
@@ -14,5 +16,6 @@ body {
     align-items: center;
 }
 .primarycnv{
-    border: solid 5px var(--fractal-color);
+    border: solid .3rem var(--fractal-color);
+    border-radius: 1rem;
 }

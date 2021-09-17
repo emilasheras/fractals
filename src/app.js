@@ -1,7 +1,8 @@
+require('dotenv').config(); // environment variables usage
 const express = require('express');
 const app = express();
 //console.log(app); 
-const port = 3001;
+const port = process.env.APP_PORT;
 const projectURLs = ["/p5js01","/p5js02"];
 const path = require('path');
 const router = express.Router();
